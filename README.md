@@ -14,5 +14,5 @@ JSON - Test
 
 Post a Entity:
 ```
-curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data
+curl -d '{"name": "Stefan Leithenmayr"}' -H "Content-Type: application/json" -X POST http://localhost:8080/student
 ```
